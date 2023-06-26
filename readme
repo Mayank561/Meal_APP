@@ -1,0 +1,10 @@
+The Meal App is a user-friendly application that allows you to explore the variety of meals and manage your favorite recipes.with an intuitive interface.you can easily search for meals, view their details, and add them to your favorite list for quick access.
+
+-------------------------------------Features:--------------------------------------------
+Search for meals:- The app provides  search bar where you enter the name of a meals or recipe. The search results are displayed in a visually appealing way, with each meal presented in a card format. you can see the meal's name, an enticing photo, and a brief description on the dish.Clicking  on a meal card reveals more details about the recipe.
+
+Meal Details:- when you select a specific meal, the app presents a detailed view that includes the meal's name, category, list of ingredients, cooking instructions, and even a video link to watch the recipe being prepared. You can also add or remove the meal from your favorites list with a single click.
+
+Favorites List:- The app allows you to create a personalized favorites list. As you explore meals, you can easily mark them as favorites by clicking on the heart icon.
+
+Sidebar and flexbox:- The app features a sidebar that can be toggled to display your favorite meals. 

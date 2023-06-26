@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- external css -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- font Awesome icons -->
+    <script src="https://kit.fontawesome.com/d42a0e31b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- nav bar section -->
+    <div id ="navbar">
+        <a href ="index.html">
+            <div class="top-logo">Meal Finder
+
+            </div>
+        </a>
+        <div class="side-d">
+            <div id="toggle">
+                <i class="fa-solid fa-bars blackicon"></i>
+                <span id="total-counter">0</span>
+            </div>
+        </div>
+    </div>
+    <!-- main section -->
+    <div id="main">
+        <!-- sidebar -->
+        <div id="sidebar">
+            <div class="top"></div>
+            <hr>
+            <div class="title">
+                Favourable Items
+            </div>
+            <hr>
+            <div id ="fav">
+
+            </div>
+        </div>
+        <!-- container for main content -->
+        <div id="flex-box">
+            <div class="container">
+                <!-- header -->
+                <div class="header">
+                    <div class="title1">
+                        Find Your Tasty Food Here!
+                    </div>
+                </div>
+                <!-- search Bar -->
+                <div id="search-bar">
+                    <div class="icon">
+                        <i class="fa-solid fa-search"></i>
+                    </div>
+                    <div class="new-search-input">
+                        <from onkeyup="showMealList()">
+                        <input id="search-input" type="text" placeholder="search food, recipe"/>
+                        </from>
+                    </div>
+                </div>
+            </div>
+            <!-- card holder -->
+            <div id="cards-holder" class="">
+
+            </div>
+        </div>
+    </div>
+    <!--  js file -->
+    <script src="script.js"></script>
+  
+</body>
+</html>
